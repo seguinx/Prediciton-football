@@ -1,6 +1,5 @@
-Prediction-Football
-Machine Learning Model Project
-Comprehensive machine learning models for football match classification using 7 advanced algorithms.
+Football Prediction ML Project
+7 Advanced Algorithms Compared
 
 Technologies
 Python
@@ -12,20 +11,20 @@ Jupyter Notebook
 Pandas, NumPy
 
 Description
-This project trains and compares multiple machine learning models to predict football match outcomes (win/loss/draw classification).
+Predicts football match outcomes (win/loss/draw).
 
-The project implements a complete model comparison featuring:
+Models Tested:
 
 Support Vector Machine (SVM)
 
-K-Nearest Neighbors (KNN) - optimized (k=29, ball_tree, manhattan distance)
+K-Nearest Neighbors (KNN) - k=29 optimized
 
-Linear Regression / Logistic Regression
+Linear/Logistic Regression
 
-Lasso Regression (L1 regularization)
+Lasso Regression (L1)
 
-Ridge Regression (L2 regularization)
+Ridge Regression (L2)
 
-Decision Tree Classifier (feature importance analysis + TOP 3 selection)
+Decision Tree + feature selection
 
-Random Forest Classifier (n_estimators=100, ensemble method)
+Random Forest (100 trees)
