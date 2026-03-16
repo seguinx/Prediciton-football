@@ -15,15 +15,16 @@ Predicts football match results (win/loss/draw) using 7 advanced ML models.
 - **Jupyter Notebook**
 
 ## 🤖 Models Implemented
-| Model | Key Implementation |
-|-------|-------------------|
-| **Random Forest** | `n_estimators=100` ensemble |
-| **Decision Tree** | Feature importance + TOP 3 selection |
-| **KNN** | `k=29, ball_tree, manhattan` optimized |
-| **Ridge Regression** | L2 regularization |
-| **Lasso Regression** | L1 regularization |
-| **SVM** | Kernel optimization |
-| **Logistic Regression** | Linear baseline |
+| Model |
+|-------|
+| **Random Forest** |
+| **Decision Tree** |
+| **KNN** |
+| **Ridge Regression** |
+| **Lasso Regression** |
+| **SVM** |
+| **Logistic Regression** |
 
 ## 📊 Pipeline
+
 
