@@ -1,18 +1,31 @@
-# Prediction-football
-# Machine Learning Model Project
+Prediction-Football
+Machine Learning Model Project
+Comprehensive machine learning models for football match classification using 7 advanced algorithms.
 
-Machine learning models using Support Vector Machine (SVM) and K-Nearest Neighbors (KNN).
+Technologies
+Python
 
-## Technologies
-- Python
-- Scikit-learn
-- Jupyter Notebook
+Scikit-learn
 
-## Description
-This project trains machine learning models for football match classification.  
-The project includes:
-- A Support Vector Machine (SVM) model
-- A K-Nearest Neighbors (KNN) model
+Jupyter Notebook
 
-These models are used to analyze data and make predictions.
+Pandas, NumPy
 
+Description
+This project trains and compares multiple machine learning models to predict football match outcomes (win/loss/draw classification).
+
+The project implements a complete model comparison featuring:
+
+Support Vector Machine (SVM)
+
+K-Nearest Neighbors (KNN) - optimized (k=29, ball_tree, manhattan distance)
+
+Linear Regression / Logistic Regression
+
+Lasso Regression (L1 regularization)
+
+Ridge Regression (L2 regularization)
+
+Decision Tree Classifier (feature importance analysis + TOP 3 selection)
+
+Random Forest Classifier (n_estimators=100, ensemble method)
