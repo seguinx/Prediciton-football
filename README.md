@@ -1,30 +1,29 @@
-Football Prediction ML Project
-7 Advanced Algorithms Compared
+# Football Prediction ML Project
 
-Technologies
-Python
+**7 ML Algorithms Compared for Match Outcome Prediction**
 
-Scikit-learn
+## 🚀 Overview
+Predicts football match results (win/loss/draw) using 7 advanced ML models.
 
-Jupyter Notebook
+[![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
+[![Scikit-learn](https://img.shields.io/badge/Scikit-learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)](https://scikit-learn.org/)
 
-Pandas, NumPy
+## 🛠️ Technologies
+- **Python 3.9+**
+- **Scikit-learn**
+- **Pandas & NumPy**
+- **Jupyter Notebook**
 
-Description
-Predicts football match outcomes (win/loss/draw).
+## 🤖 Models Implemented
+| Model | Key Implementation |
+|-------|-------------------|
+| **Random Forest** | `n_estimators=100` ensemble |
+| **Decision Tree** | Feature importance + TOP 3 selection |
+| **KNN** | `k=29, ball_tree, manhattan` optimized |
+| **Ridge Regression** | L2 regularization |
+| **Lasso Regression** | L1 regularization |
+| **SVM** | Kernel optimization |
+| **Logistic Regression** | Linear baseline |
 
-Models Tested:
+## 📊 Pipeline
 
-Support Vector Machine (SVM)
-
-K-Nearest Neighbors (KNN) - k=29 optimized
-
-Linear/Logistic Regression
-
-Lasso Regression (L1)
-
-Ridge Regression (L2)
-
-Decision Tree + feature selection
-
-Random Forest (100 trees)
